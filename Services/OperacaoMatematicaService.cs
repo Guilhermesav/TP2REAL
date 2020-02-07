@@ -10,27 +10,30 @@ namespace TP2REAL.Services
     {
         public double OPSoma(OperacoesMatematicasModel operacoesMatematicasModel)
         {
-            var resultado = operacoesMatematicasModel.numero1 + operacoesMatematicasModel.numero2;
+            var result = operacoesMatematicasModel.numero1 + operacoesMatematicasModel.numero2;
 
-            return resultado;
+            return result;
         }
         public double OPSub(OperacoesMatematicasModel operacoesMatematicasModel)
         {
-            var resultado = operacoesMatematicasModel.numero1 - operacoesMatematicasModel.numero2;
+            var result = operacoesMatematicasModel.numero1 - operacoesMatematicasModel.numero2;
 
-            return resultado;
-        }
-        public double OPDiv(OperacoesMatematicasModel operacoesMatematicasModel)
-        {
-            var resultado = operacoesMatematicasModel.numero1 / operacoesMatematicasModel.numero2;
-
-            return resultado;
+            return result;
         }
         public double OPMult(OperacoesMatematicasModel operacoesMatematicasModel)
         {
-            var resultado = operacoesMatematicasModel.numero1 * operacoesMatematicasModel.numero2;
+            var result = operacoesMatematicasModel.numero1 * operacoesMatematicasModel.numero2;
 
-            return resultado;
+            return result;
+            
         }
-    }
+        public double OPDiv(OperacoesMatematicasModel operacoesMatematicasModel)
+        {
+            var result = operacoesMatematicasModel.numero1 / operacoesMatematicasModel.numero2;
+
+            return result;
+        }
+        
+
+        }
 }
