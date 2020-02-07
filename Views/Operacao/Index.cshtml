@@ -17,7 +17,55 @@
                 <span asp-validation-for="numero2" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Somar" class="btn btn-primary" />
+                <input type="submit" value="Soma" class="btn btn-primary" />
+            </div>
+        </form>
+        <form asp-action="OPSub">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="numero1" class="control-label"></label>
+                <input asp-for="numero1" class="form-control" />
+                <span asp-validation-for="numero1" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="numero2" class="control-label"></label>
+                <input asp-for="numero2" class="form-control" />
+                <span asp-validation-for="numero2" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Subtracao" class="btn btn-primary" />
+            </div>
+        </form>
+        <form asp-action="OPMult">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="numero1" class="control-label"></label>
+                <input asp-for="numero1" class="form-control" />
+                <span asp-validation-for="numero1" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="numero2" class="control-label"></label>
+                <input asp-for="numero2" class="form-control" />
+                <span asp-validation-for="numero2" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Multiplicacao" class="btn btn-primary" />
+            </div>
+        </form>
+        <form asp-action="OPDiv">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="numero1" class="control-label"></label>
+                <input asp-for="numero1" class="form-control" />
+                <span asp-validation-for="numero1" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="numero2" class="control-label"></label>
+                <input asp-for="numero2" class="form-control" />
+                <span asp-validation-for="numero2" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Divisao" class="btn btn-primary" />
             </div>
         </form>
     </div>

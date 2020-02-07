@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using TP2REAL.Models;
 using TP2REAL.Services;
 
@@ -25,11 +21,15 @@ namespace TP2REAL.Controllers
         {
             var result = _operacoesMatematicasService.OPSoma(operacoesMatematicasModel);
 
-            return View("result", operacoesMatematicasService);
+            operacoesMatematicasModel.result = result;
+
+            return View("Result", operacoesMatematicasModel);
         }
         public IActionResult OPSub(OperacoesMatematicasModel operacoesMatematicasModel)
         {
             var result = _operacoesMatematicasService.OPSub(operacoesMatematicasModel);
+
+            operacoesMatematicasModel.result = result;
 
             return View("result", operacoesMatematicasModel);
         }
@@ -37,12 +37,13 @@ namespace TP2REAL.Controllers
         {
             var result = _operacoesMatematicasService.OPMult(operacoesMatematicasModel);
 
+            operacoesMatematicasModel.result = result;
             return View("result", operacoesMatematicasModel);
         }
         public IActionResult OPDiv(OperacoesMatematicasModel operacoesMatematicasModel)
         {
             var result = _operacoesMatematicasService.OPDiv(operacoesMatematicasModel);
-
+            operacoesMatematicasModel.result = result;
             return View("result", operacoesMatematicasModel);
         }
 
