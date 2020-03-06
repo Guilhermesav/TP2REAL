@@ -8,6 +8,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using TP2REAL.Services;
+using TP2REAL.Repository;
 
 namespace TP2REAL
 {
@@ -25,6 +26,7 @@ namespace TP2REAL
         {
             services.AddControllersWithViews();
             services.AddTransient<OperacoesMatematicasService>();
+            services.AddTransient<IOperacaoRepository, OperacaoMdfRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

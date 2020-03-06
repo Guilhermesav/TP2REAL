@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PICHAU\\Documents\\GitHub\\TP2REAL\\TP2REAL.csproj": {}
+    "C:\\Users\\guilherme.nascimento\\source\\repos\\TP2REAL\\TP2REAL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PICHAU\\Documents\\GitHub\\TP2REAL\\TP2REAL.csproj": {
+    "C:\\Users\\guilherme.nascimento\\source\\repos\\TP2REAL\\TP2REAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PICHAU\\Documents\\GitHub\\TP2REAL\\TP2REAL.csproj",
+        "projectUniqueName": "C:\\Users\\guilherme.nascimento\\source\\repos\\TP2REAL\\TP2REAL.csproj",
         "projectName": "TP2REAL",
-        "projectPath": "C:\\Users\\PICHAU\\Documents\\GitHub\\TP2REAL\\TP2REAL.csproj",
-        "packagesPath": "C:\\Users\\PICHAU\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PICHAU\\Documents\\GitHub\\TP2REAL\\obj\\",
+        "projectPath": "C:\\Users\\guilherme.nascimento\\source\\repos\\TP2REAL\\TP2REAL.csproj",
+        "packagesPath": "C:\\Users\\guilherme.nascimento\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\guilherme.nascimento\\source\\repos\\TP2REAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\PICHAU\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\guilherme.nascimento\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -79,14 +79,6 @@
             {
               "name": "Microsoft.NETCore.App.Host.win-x64",
               "version": "[3.0.2, 3.0.2]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[3.0.0, 3.0.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[3.0.0, 3.0.0]"
             }
           ],
           "frameworkReferences": {

@@ -7,11 +7,11 @@ namespace TP2REAL.Models
 {
     public class OperacoesMatematicasModel
     {
-        public double numero1 { get; set; }
+        public double Numero1 { get; set; }
 
-        public double numero2 { get; set; }
+        public double Numero2 { get; set; }
         
-        public double result { get; set; }
+        public double Result { get; set; }
 
     }
 }

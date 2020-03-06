@@ -21,7 +21,7 @@ namespace TP2REAL.Controllers
         {
             var result = _operacoesMatematicasService.OPSoma(operacoesMatematicasModel);
 
-            operacoesMatematicasModel.result = result;
+          
 
             return View("Result", operacoesMatematicasModel);
         }
@@ -29,7 +29,7 @@ namespace TP2REAL.Controllers
         {
             var result = _operacoesMatematicasService.OPSub(operacoesMatematicasModel);
 
-            operacoesMatematicasModel.result = result;
+         
 
             return View("result", operacoesMatematicasModel);
         }
@@ -37,13 +37,13 @@ namespace TP2REAL.Controllers
         {
             var result = _operacoesMatematicasService.OPMult(operacoesMatematicasModel);
 
-            operacoesMatematicasModel.result = result;
+      
             return View("result", operacoesMatematicasModel);
         }
         public IActionResult OPDiv(OperacoesMatematicasModel operacoesMatematicasModel)
         {
             var result = _operacoesMatematicasService.OPDiv(operacoesMatematicasModel);
-            operacoesMatematicasModel.result = result;
+         
             return View("result", operacoesMatematicasModel);
         }
 
